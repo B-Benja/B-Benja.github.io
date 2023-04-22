@@ -50,6 +50,10 @@ p {
   color: #fff;
   a {
     color: #fff;
+    &:hover {
+      text-decoration: none;
+      color: $link_high;
+    }
   }
   .profile-container {
     padding: 30px;

@@ -2,7 +2,11 @@
 <div class="sidebar-wrapper">
 
   <div class="profile-container">
-
+    <a class="dark-mode-button" >
+      <i id="icon-dark" class="fa fa-moon"></i>
+      <span id="dark-text">Sunset</span>
+    </a>
+    
     {% if sidebar.name %}
     <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}
