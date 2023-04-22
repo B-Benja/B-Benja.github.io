@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    const darkModeToggle = document.getElementById('mode-switch');
     const moonIcon = darkModeToggle.querySelector('.fa-moon');
     const sunIcon = darkModeToggle.querySelector('.fa-sun');
   
