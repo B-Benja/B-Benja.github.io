@@ -21,8 +21,8 @@ h6 {
 a {
   color: darken($theme-color, 15%);
   &:hover {
-    text-decoration: underline;
-    color: darken($theme-color, 30%);
+    text-decoration: none;
+    color: $link_high;
   }
   &:focus {
     text-decoration: none;
