@@ -283,3 +283,39 @@ p {
     color: $heart;
   }
 }
+
+.dark-mode {
+  background-color: $smoky-white_dark;
+  color: $text-color_dark;
+
+  a {
+    color: $link_high_dark;
+    &:hover {
+      color: $link_high_dark;
+    }
+  }
+
+  .wrapper {
+    background-color: $theme-color;
+  }
+
+  .sidebar-wrapper {
+    background-color: $theme-color;
+    color: $text-color_dark;
+  }
+
+  .main-wrapper {
+    background-color: $smoky-white_dark;
+    color: $text-color_dark;
+
+    .section-title {
+      color: $text-color_dark;
+    }
+
+    .job-title,
+    .degree,
+    .project-title {
+      color: $text-color_dark;
+    }
+  }
+}

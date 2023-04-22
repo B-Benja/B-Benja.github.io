@@ -187,25 +187,26 @@ $highdpi: #{"(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio
 
 
 @mixin light-vars() {
-	$text-color: #{$text-color_light};
-	$text-color-secondary: #{$text-color-secondary_light};
-	$text-grey: #{$text-grey_light};
-	$divider: #{$divider_light};
-	$lighter-grey: #{$lighter-grey_light};
-	$darker-grey: #{$darker-grey_light};
-	$smoky-white: #{$smoky-white_light};
-	$heart: #{$heart_light};
-	$link_high: #{$link_high_light};
+	$text-color: #{$text-color_light} !global;
+	$text-color-secondary: #{$text-color-secondary_light} !global;
+	$text-grey: #{$text-grey_light} !global;
+	$divider: #{$divider_light} !global;
+	$lighter-grey: #{$lighter-grey_light} !global;
+	$darker-grey: #{$darker-grey_light} !global;
+	$smoky-white: #{$smoky-white_light} !global;
+	$heart: #{$heart_light} !global;
+	$link_high: #{$link_high_light} !global;
   }
   
   @mixin dark-vars() {
-	$text-color: #{$text-color_dark};
-	$text-color-secondary: #{$text-color-secondary_dark};
-	$text-grey: #{$text-grey_dark};
-	$divider: #{$divider_dark};
-	$lighter-grey: #{$lighter-grey_dark};
-	$darker-grey: #{$darker-grey_dark};
-	$smoky-white: #{$smoky-white_dark};
-	$heart: #{$heart_dark};
-	$link_high: #{$link_high_dark};
+	$text-color: #{$text-color_dark} !global;
+	$text-color-secondary: #{$text-color-secondary_dark} !global;
+	$text-grey: #{$text-grey_dark} !global;
+	$divider: #{$divider_dark} !global;
+	$lighter-grey: #{$lighter-grey_dark} !global;
+	$darker-grey: #{$darker-grey_dark} !global;
+	$smoky-white: #{$smoky-white_dark} !global;
+	$heart: #{$heart_dark} !global;
+	$link_high: #{$link_high_dark} !global;
   }
+  
