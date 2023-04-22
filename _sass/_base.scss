@@ -50,9 +50,9 @@ p {
   grid-column: span 3;
   order: 2;
   background: $theme-color;
-  color: #fff;
+  color: $smoky-white-inner;
   a {
-    color: #fff;
+    color: $smoky-white-inner;
     &:hover {
       text-decoration: none;
       color: $link_high;
@@ -63,7 +63,7 @@ p {
     //background: darken($theme-color, 10%);
     background: rgba(0, 0, 0, 0.2);
     text-align: center;
-    color: #fff;
+    color: $smoky-white-inner;
   }
   .name {
     font-size: 32px;
@@ -86,7 +86,7 @@ p {
     //used for profile image
     max-width: 100px;
     margin-bottom: 15px;
-    border: 0px solid #fff;
+    border: 0px solid $smoky-white-inner;
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
