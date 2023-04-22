@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: hello@webjeda.com
     phone: 
-    timezone: America/Cancun Timezone
+    timezone:
     citizenship:
     website: blog.webjeda.com #do not add http://
     linkedin: benjamin-buettner
@@ -112,7 +112,7 @@ education:
             - Bullet point
 
 projects:
-    title: Projects & Code Snippets
+    title: Projects & Code Snippets (not Research related)
     intro: >
       You can list your side projects in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
