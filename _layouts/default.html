@@ -23,7 +23,19 @@
 <script>
   document.getElementById("mode-switch").addEventListener("click", function() {
     document.body.classList.toggle("dark-mode");
-  });
+
+    // Toggle the moon and sun icons
+    const moonIcon = document.querySelector("#mode-switch .far.fa-moon");
+    const sunIcon = document.querySelector("#mode-switch .fas.fa-sun");
+
+    if (moonIcon.style.display === "none") {
+      moonIcon.style.display = "";
+      sunIcon.style.display = "none";
+    } else {
+      moonIcon.style.display = "none";
+      sunIcon.style.display = "";
+    }
+  }); 
 </script>
 
 </body>

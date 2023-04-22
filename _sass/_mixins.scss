@@ -196,6 +196,9 @@ $highdpi: #{"(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio
 	$smoky-white: #{$smoky-white_light} !global;
 	$heart: #{$heart_light} !global;
 	$link_high: #{$link_high_light} !global;
+	$smoky-white-inner: #{$smoky-white-inner_light} !global;
+	$link_sidebar: #{$link_sidebar_light} !global;
+
   }
   
   @mixin dark-vars() {
@@ -208,5 +211,7 @@ $highdpi: #{"(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio
 	$smoky-white: #{$smoky-white_dark} !global;
 	$heart: #{$heart_dark} !global;
 	$link_high: #{$link_high_dark} !global;
+	$smoky-white-inner: #{$smoky-white-inner_dark} !global;
+	$link_sidebar: #{$link_sidebar_dark} !global;
   }
   
