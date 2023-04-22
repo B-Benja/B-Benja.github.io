@@ -2,11 +2,42 @@
 <div class="sidebar-wrapper">
 
   <div class="profile-container">
-    <a class="dark-mode-button" >
-      <i id="icon-dark" class="fa fa-moon"></i>
-      <span id="dark-text">Sunset</span>
-    </a>
+    <span id="toggle-dark-light" href="">
+      <img src="/img_src/nav/moon.svg" alt="light-mode" height="20" width="20">
+    </span>
     
+
+    <script>
+      function showTheme() {
+        // Choose the toggle icon
+        const btn = document.getElementById("toggle-dark-light");
+        let toggleIcon = btn.firstElementChild;
+        // check the saved theme on local
+        const currentTheme = localStorage.getItem("theme");
+        // switch to that saved theme (also change toggle icon)
+        if (currentTheme === "dark") {
+          document.body.classList.toggle("dark-theme");
+          toggleIcon.src = "/img_src/nav/sun.svg";
+        } else if (currentTheme === "light") {
+          document.body.classList.toggle("light-theme");
+          toggleIcon.src = "/img_src/nav/moon.svg";
+        }
+      }
+    
+      // show content after DOM loaded
+      function showContent() {
+        document.body.style.visibility = 'visible';
+        document.body.style.opacity = 1;
+      }
+    
+      // listen to the DOM content loaded or not?
+      window.addEventListener('DOMContentLoaded', (event) => {
+        showTheme();
+        showContent();
+      });
+    </script>
+    
+
     {% if sidebar.name %}
     <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}

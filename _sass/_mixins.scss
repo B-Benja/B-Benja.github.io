@@ -184,3 +184,28 @@ $highdpi: #{"(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio
     }
   }
 }
+
+
+@mixin light-vars() {
+	$text-color: #{$text-color_light};
+	$text-color-secondary: #{$text-color-secondary_light};
+	$text-grey: #{$text-grey_light};
+	$divider: #{$divider_light};
+	$lighter-grey: #{$lighter-grey_light};
+	$darker-grey: #{$darker-grey_light};
+	$smoky-white: #{$smoky-white_light};
+	$heart: #{$heart_light};
+	$link_high: #{$link_high_light};
+  }
+  
+  @mixin dark-vars() {
+	$text-color: #{$text-color_dark};
+	$text-color-secondary: #{$text-color-secondary_dark};
+	$text-grey: #{$text-grey_dark};
+	$divider: #{$divider_dark};
+	$lighter-grey: #{$lighter-grey_dark};
+	$darker-grey: #{$darker-grey_dark};
+	$smoky-white: #{$smoky-white_dark};
+	$heart: #{$heart_dark};
+	$link_high: #{$link_high_dark};
+  }
