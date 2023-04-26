@@ -55,7 +55,7 @@ p {
     color: $smoky-white-inner;
     &:hover {
       text-decoration: none;
-      color: $link_high;
+      color: $link_sidebar_light;
     }
   }
   .profile-container {
@@ -292,7 +292,7 @@ p {
   color: $text-color_dark;
 
   a {
-    color: $link_high_dark;
+    color: $link_dark;
     &:hover {
       color: $link_high_dark;
     }
@@ -310,7 +310,7 @@ p {
         color: $text-color_dark;
         &:hover {
           text-decoration: none;
-          color: $link_high;
+          color: $link_dark;
         }
       }
   }
@@ -328,5 +328,11 @@ p {
     .project-title {
       color: $theme-color;
     }
+  }
+
+  .footer {
+  .copyright {
+    color: $text-color-secondary_dark;
+  }
   }
 }
